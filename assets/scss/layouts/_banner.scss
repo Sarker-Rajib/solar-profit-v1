@@ -1,0 +1,38 @@
+.banner{
+   @media(min-width: 1500px) {          
+      padding-bottom: 50px;
+    }
+
+   .main{
+      background: $color-primary;
+
+      .section-header{
+         h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 31px;
+            text-align: center;
+            padding: 32px 0;
+            color: #3c3c3b;
+      
+            @media(max-width: 991px) {
+               font-size: 24px;
+            }
+   
+            @media(max-width: 767px) {
+               font-size: 20px;
+            }
+         }
+      }
+   
+      .image{
+         img{
+            @media(min-width: 1500px) {          
+              position: relative;
+              z-index: 999;
+              margin-bottom: -50px;
+            }
+         }
+      }
+   }
+}

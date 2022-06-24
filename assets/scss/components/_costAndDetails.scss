@@ -1,0 +1,50 @@
+.cost-and-details{
+
+   h2{
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 34px;
+      color: #3c3c3b;
+   }
+
+   p{
+      white-space: pre-line;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+
+      a{
+         color: #3c3c3b;
+         text-decoration: underline;
+      }
+   }
+
+   .what-is-solarProfit{
+      padding: 25px 0 25px 35px;
+      margin: 25px 0;
+      background: #fffae5;
+      border-left: 5px solid $color-primary;
+   }
+
+
+   .free-quote{
+      padding: 35px 0 55px;
+      ul{
+         padding-left: 0;
+         li{
+
+            padding: 8px 0;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 17px;
+            color: #000;
+
+            img{
+               max-width: 32px;
+               margin-right: 10px;
+            }
+         }
+      }
+   }
+}

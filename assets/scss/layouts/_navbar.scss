@@ -1,0 +1,27 @@
+.header{
+   padding: 3px 0;
+   .image{
+      text-align: center;
+
+      img{
+         width: 100%;
+         max-width: 160px;
+      }
+   }
+
+
+
+   .adver{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      text-align: center;
+      line-height: 35px;
+   }
+
+}
+
+.logo-lg{
+   width: 100%;
+   max-width: 275px;
+}

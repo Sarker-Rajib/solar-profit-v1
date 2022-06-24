@@ -1,0 +1,84 @@
+.why-invest-solar{
+   padding: 40px 0;
+
+   .section-header{
+      padding-top: 15px;
+      text-align: center;
+      position: relative;
+      
+      &::before{
+         content: '';
+         position: absolute;
+         top: 50%;
+         left: 0;
+         width: 100%;
+         height: 3px;
+         background: $color-primary;
+      }
+
+      h2{
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 600;
+         font-size: 31px;
+         text-align: center;
+         color: #3c3c3b;
+         position: relative;
+         background: #fff;
+         display: inline-block;
+               
+         @media(max-width: 991px) {
+            font-size: 24px;
+         }
+
+         @media(max-width: 767px) {
+            font-size: 20px;
+         }
+      }
+   }
+
+   .section-body{
+      .solar-criteria-details{
+         padding: 55px 0;
+
+         .item-card{
+            height: 100%;
+            text-align: center;
+
+            @media(min-width: 1400px) {
+               padding: 0 80px;               
+            }
+
+            .image{
+               text-align: center;
+               border-bottom: 3px solid $color-primary;
+               max-width: 180px;
+               margin: auto;
+
+               img{
+                  width: 128px;
+               }
+            }
+
+            .text{
+               padding-top: 20px;
+
+               h3{
+                  font-family: 'Montserrat', sans-serif;
+                  font-weight: 700;
+                  font-size: 20px;
+                  padding-bottom: 15px;
+                  color: #444444;
+               }
+
+               p{
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: 400;
+                  font-size: 18px;
+                  color: #444444;
+               }
+            }
+         }
+      }
+   }
+}
+

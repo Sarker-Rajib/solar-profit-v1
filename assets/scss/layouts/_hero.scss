@@ -1,0 +1,80 @@
+.hero{
+
+   .top-section{
+      background: $color-primary;
+      padding-bottom: 350px;
+
+      .social-media{
+         padding-top: 20px;
+   
+         a{
+            display: inline-block;
+            margin-right: 10px;
+   
+            i{
+               color: #000;
+               font-size: 25px;
+            }
+         }
+   
+         .text{
+            padding-bottom: 25px;
+            h5{
+               font-family: 'Roboto', sans-serif;
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 20px;
+               color: #000;
+            }
+            p{
+               font-family: 'Roboto', sans-serif;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 20px;
+               color: #000;
+            }
+         }
+      }
+   
+      .main-content{
+         h1{
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 700;
+            font-size: 41px;
+            line-height: 54px;
+            color: #000;
+         }
+   
+         p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 37px;
+            color: #000;
+            padding: 25px 0;
+         }
+      }
+   }
+
+
+   .bottom-section{
+      margin-top: -350px;
+      position: relative;
+      z-index: 999; 
+      .image-container{
+   
+         img{
+            padding-bottom: -100px;
+         }
+   
+   
+         .pic-detailed{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 25px;
+            color: #AAAAAA;
+         }
+      }
+   }
+}

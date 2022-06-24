@@ -1,0 +1,31 @@
+/*=== abstracts css start === */
+@import 'abstracts/fonts';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/*===// end of base css === */
+
+
+/*=== layouts css start === */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+@import 'layouts/banner';
+@import 'layouts/hero';
+/*===// end of layouts css === */
+
+
+/*=== components css start === */
+@import 'components/buttons';
+@import 'components/whySolarInvest';
+@import 'components/awards';
+@import 'components/solar-properties';
+@import 'components/nearLocationService';
+@import 'components/costAndDetails';
+@import 'components/savingWithSolar';
+/*===// end of components css === */
