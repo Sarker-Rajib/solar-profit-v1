@@ -1,10 +1,6 @@
 .hero{
    .container{
       max-width: 1004px;
-   }
-   
-   .top-section{
-      background: $color-primary;
       padding-bottom: 270px;
 
       @media(max-width: 767px) {
@@ -14,6 +10,10 @@
       @media(max-width: 575px) {
          padding-bottom: 120px;    
       }
+   }
+   
+   .top-section{
+      background: $color-primary;
 
       .social-media{
          padding-top: 20px;
@@ -78,6 +78,23 @@
             @media(min-width: 1000px){
                white-space: pre-line;
             }
+         }
+      }
+
+      .lines{
+         position: absolute;
+         right: calc(100% + 40px);
+         bottom: 0;
+         z-index: 999;
+         height: 80%;
+         display: flex;
+
+         .line{
+            display: block;
+            width: 6px;
+            height: 100%;
+            background: #fff;
+            margin-left: 10px;
          }
       }
    }

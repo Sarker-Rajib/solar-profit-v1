@@ -22,6 +22,35 @@
       line-height: 35px;
    }
 
+   .scroll-fix{
+      transition: all 0.3s linear;
+      padding: 10px 0;
+      
+      @media (max-width: 575px) {
+         padding: 0;
+         .btn-black {
+            font-size: 14px;
+         }
+      }
+
+      &.fixed-top {
+         width: 100%;
+         background-color: #D1D1D1;
+         text-align: center;
+         left: 0;
+         transition: all 0.3s linear;
+         
+         .btn-black {
+            width: 400px;
+            transition: all 0.3s linear;
+
+            @media (max-width: 575px) {
+               width: 100%;
+            }
+         }
+      }
+   }
+
 }
 
 .logo-lg{
