@@ -1,5 +1,13 @@
 .why-invest-solar{
-   padding: 40px 0;
+   padding: 40px 0 55px;
+
+   @media(max-width: 767px) {
+      padding: 40px 0 35px;
+   }
+
+   .container{
+      max-width: 1170px;
+   }
 
    .section-header{
       padding-top: 15px;
@@ -38,14 +46,25 @@
 
    .section-body{
       .solar-criteria-details{
-         padding: 55px 0;
+         padding: 55px 0 30px;
+
+         @media(max-width: 767px) {
+            padding-top: 25px;
+         }
 
          .item-card{
             height: 100%;
             text-align: center;
+            background: #fff;
 
             @media(min-width: 1400px) {
-               padding: 0 80px;               
+               padding: 0 50px;               
+            }
+
+            @media(max-width: 767px) {
+               border-top: 1px solid $color-primary;           
+               border-bottom: 1px solid $color-primary; 
+               padding-bottom: 20px;            
             }
 
             .image{
@@ -68,6 +87,10 @@
                   font-size: 20px;
                   padding-bottom: 15px;
                   color: #444444;
+
+                  @media(max-width: 991px) {
+                     font-size: 18px;                     
+                  }
                }
 
                p{
@@ -75,6 +98,10 @@
                   font-weight: 400;
                   font-size: 18px;
                   color: #444444;
+                  
+                  @media(max-width: 991px) {
+                     font-size: 16px;                     
+                  }
                }
             }
          }
