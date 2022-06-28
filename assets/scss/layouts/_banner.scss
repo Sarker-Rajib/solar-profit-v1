@@ -1,10 +1,18 @@
 .banner{
-   @media(min-width: 1500px) {          
+   @media(max-width: 767px){
       padding-bottom: 50px;
-    }
+   }
 
    .main{
       background: $color-primary;
+      padding-bottom: 400px;
+
+
+      .container{
+         @media(max-width: 1139px) {
+            width: 100%;            
+         }
+      }
 
       .section-header{
          h1{
@@ -23,16 +31,6 @@
                font-size: 20px;
                padding: 15px;
                line-height: 29px
-            }
-         }
-      }
-   
-      .image{
-         img{
-            @media(min-width: 1500px) {          
-              position: relative;
-              z-index: 999;
-              margin-bottom: -50px;
             }
          }
       }

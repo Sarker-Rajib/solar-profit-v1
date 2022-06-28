@@ -1,0 +1,80 @@
+.buying-option{
+   padding-block: 100px;
+   background: url(../images/2solarprofit-banner-cro0384.jpg) no-repeat top center/contain;
+   position: relative;
+   z-index: 999;
+   margin-top: -400px;
+   
+   @media(max-width: 767px){
+      background: transparent;
+      margin-top: -400px;
+      padding-block: 0;
+   }
+
+
+   .contents-wrapper{
+      padding: 1em 2em;
+      width: 100%;
+      max-width: 620px;
+      border-radius: 8px;
+      box-shadow: 0 2px 2px 2px hsl(220deg 80% 20% / 15%), 0 10px 10px 0.25em hsl(220deg 80% 20% / 30%);
+      background: #FFFFFF;
+
+      h2{
+         font-size: 17px;
+         font-family: 'Roboto', sans-serif;
+      }
+
+      ul{
+         padding: 0;
+         li{
+            border: 2px solid #c7c7c7;
+            box-shadow: 0 1px 0 #454545, 0 2px 2px #ccc;
+            padding: 0.55rem;
+            margin-bottom: 15px;
+            border-radius: 0.4rem;
+
+            label{
+               display: inline-block;
+               width: 90%;
+            }
+
+            &:hover{
+               background-color: #fff8d9;
+            }
+         }
+      }
+      
+      .btn-yelow{
+         background: #ffd106;
+         color: #3c3c3b;
+         font-family: "Roboto",sans-serif;
+         font-weight: 600;
+         border-radius: 0.4rem;
+         border: 1px solid #ffd106;
+         text-align: center;
+         height: 80px;
+         width: 100%;
+         font-size: 24px;
+         white-space: nowrap;
+         display: block;
+         width: 100%;
+         margin-block: 5px;
+
+            
+         @media(max-width: 767px){
+            font-size: 18px;
+         }
+      }
+
+      span, a{
+         font-family: "Roboto",sans-serif;
+         font-size: 12px;
+      }
+
+      a{
+         text-decoration: underline;
+         color: #3c3c3bc1;
+      }
+   }
+}
